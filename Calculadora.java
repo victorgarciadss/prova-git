@@ -12,7 +12,8 @@ public class Calculadora {
 	}
 
 	public void setNum1(int num1) {
-		this.num1 = num1;
+		if(num1<10000000000000)
+			this.num1 = num1;
 	}
 
 	public void setNum2(int num2) {
