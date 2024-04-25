@@ -5,9 +5,9 @@ public class Calculadora {
 	public double calculateNumbers(String simbol) {
 		switch(simbol) {
 			case '+': 
-				return num1 + num2;
+				return number1 + number2;
 			case '-':
-				return num1 - num2;
+				return number1 - number2;
 		}
 	}
 
