@@ -1,8 +1,8 @@
 public class Calculadora {
-	private int num1;
-	private int num2;
+	private double num1;
+	private double num2;
 
-	public int calculateNumbers(String simbol) {
+	public double calculateNumbers(String simbol) {
 		switch(simbol) {
 			case '+': 
 				return num1 + num2;
@@ -11,12 +11,11 @@ public class Calculadora {
 		}
 	}
 
-	public void setNum1(int num1) {
-		if(num1<10000000000000)
+	public void setNum1(double num1) {
 			this.num1 = num1;
 	}
 
-	public void setNum2(int num2) {
+	public void setNum2(double num2) {
 		this.num2 = num2;
 	}
 }
