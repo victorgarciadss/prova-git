@@ -1,21 +1,21 @@
 public class Calculadora {
-	private int num1;
-	private int num2;
+	private int number1;
+	private int number2;
 
 	public int calculateNumbers(String simbol) {
 		switch(simbol) {
 			case '+': 
-				return num1 + num2;
+				return number1 + number2;
 			case '-':
-				return num1 - num2;
+				return number1 - number2;
 		}
 	}
 
-	public void setNum1(int num1) {
-		this.num1 = num1;
+	public void setNumber1(int number1) {
+		this.number1 = number1;
 	}
 
-	public void setNum2(int num2) {
-		this.num2 = num2;
+	public void setNumber2(int number2) {
+		this.number2 = number2;
 	}
 }
