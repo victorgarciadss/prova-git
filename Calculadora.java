@@ -11,6 +11,7 @@ public class Calculadora {
 		}
 	}
 
+
 	public void setNumber1(int number1) {
 		this.number1 = number1;
 	}
